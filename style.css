@@ -1,9 +1,24 @@
-*{
+ *{
     margin: 0;
-    padding-left: 50px;
-    background-color: aqua;
+    padding-left: 0px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    color: white;
 }
 
-p{
-    font-size: larger;
+.logo {
+    width: 70px;
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.hotel-name {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 24px;
 }
